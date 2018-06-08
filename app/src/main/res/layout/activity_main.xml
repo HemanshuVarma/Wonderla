@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/logoDesc"
+            android:src="@drawable/wonderla_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/eightDips"
+            android:fontFamily="serif-monospace"
+            android:padding="@dimen/eightDips"
+            android:text="@string/tagLine"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/thirtyTwoDips"
+            android:layout_marginRight="@dimen/thirtyTwoDips"
+            android:background="@color/gray_500" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/twentyFourDips"
+            android:text="@string/about"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/thirtyTwoDips"
+            android:layout_marginRight="@dimen/thirtyTwoDips"
+            android:background="@color/gray_500" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginBottom="@dimen/eightDips"
+            android:layout_marginStart="@dimen/thirtyTwoDips"
+            android:layout_marginTop="@dimen/sixteenDips"
+            android:autoLink="phone"
+            android:drawableStart="@drawable/contact_us"
+            android:text="@string/contact"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginBottom="@dimen/eightDips"
+            android:layout_marginStart="@dimen/thirtyTwoDips"
+            android:layout_marginTop="@dimen/eightDips"
+            android:autoLink="email"
+            android:drawableStart="@drawable/mail"
+            android:text="@string/mail"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginBottom="@dimen/eightDips"
+            android:layout_marginStart="@dimen/thirtyTwoDips"
+            android:layout_marginTop="@dimen/eightDips"
+            android:autoLink="web"
+            android:drawableStart="@drawable/url"
+            android:text="@string/url"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginBottom="@dimen/eightDips"
+            android:layout_marginStart="@dimen/thirtyTwoDips"
+            android:layout_marginTop="@dimen/eightDips"
+            android:drawableStart="@drawable/clock"
+            android:text="@string/timing"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/eightDips"
+            android:layout_marginTop="@dimen/eightDips"
+            android:fontFamily="serif"
+            android:text="@string/rating"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/lightBlue"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/sixteenDips"
+            android:layout_marginTop="@dimen/eightDips"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="4.5"
+            android:stepSize="0.5" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/wonderlaImageDesc"
+            android:onClick="message"
+            android:src="@drawable/wonderla_main" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Wonderla</string>
+    <!--Wonderla-->
+    <string name="logoDesc">Wonderla Logo</string>
+    <string name="tagLine">Parks and Resorts</string>
+    <string name="about">\t \t <b>Wonderla Holidays</b>, is one of the largest amusement park operator in India. Wonderla Holidays Limited currently operates 3 amusement parks in <i>Kochi</i>, <i>Bengaluru</i> and <i>Hyderabad</i> respectively. It offers a variety of rides for all ages to enjoy, some of their rides are Recoil, Maverick, Y-Scream, and their latest addition Mission interstellar.</string>
+    <string name="contact">\t \t \t +91 998765421</string>
+    <string name="mail">\t \t \t queries@wonderla.com</string>
+    <string name="url">\t \t \t www.wonderla.com</string>
+    <string name="timing">\t \t \t 11:00 AM - 7:00 PM</string>
+    <string name="wonderlaImageDesc">Wonderla Amusement Park</string>
+    <string name="rating">Rated : 4.5</string>
+    <string name="message">\u272F \u272F I \u2764 Wonderla! \u272F \u272F</string>
+
+</resources>
